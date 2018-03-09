@@ -5,19 +5,19 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(360, 480);
+  createCanvas(480, 320);
   background('white');
-  fill('#ED225D');
+  fill('grey');
   textFont(myFont);
-  textSize(36);
+  textSize(16);
   //text('gąwno!', 10, 50);
 }
 
 function draw() {
-  if (x>100)
+  if (x>10)
   {  background('white');
 
-    text('gąwno!', x, 50);
+    text('dłuższy tekst, który ma się pojawić!', x, 50);
     x-=5;
 }
 
